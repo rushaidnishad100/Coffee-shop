@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url("coffee.jpg") no-repeat center;
+
+    background-size: cover;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    font-size: 25px;
+    font-family: serif;
+    margin: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.and{
+    color: rgb(119, 84, 19);
+    font-family: serif;
+
+}
+
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.nav-links li{
+    list-style: none;
+    
+}
+
+
+
+.nav-links a{
+    text-decoration: none;
+    margin: 32px;
+    color: white;
+    /* background-color: rgb(138, 76, 9); */
+    padding: 12px;
+    border-radius: 5px;
+    border-bottom: 2px solid white;
+}
+
+
+
+.order-btn{
+    background-color: rgb(138, 76, 5);
+    margin: 16px 25px 0 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+.hero{
+    position: absolute;
+    top: 400px;
+    margin-left: 38px;
+    color: white;
+}
+
+.fr{
+    color: orange;
+    word-spacing: 3px;
+}
+
+
+.coff{
+    font-size: 50px;
+    font-family: serif;
+}
+
+.you{
+    font-size: 50px;
+    font-family: serif;
+    color: orange;
+}
+
+
+.lor{
+    margin: 15px;
+    color: rgb(255, 125, 4);
+}
+
+
+.bb{
+    margin-top: 48px;
+    margin-left: 40px;
+
+}
+
+.ex-menu{
+  margin: 20px;
+  color: white;
+  background-color: orange;
+  border: 1px solid white;
+  outline: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+.our-store{
+  color: white;
+  background-color: orange;
+  border: 1px solid white;
+  outline: none;
+  padding: 14px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
+  /* Mobile First */
+
+@media (max-width: 700px ){
+    .nav-links{
+        display: none;
+    }
+    .logo{
+        font-size: 23px;
+    }
+    .hero{
+        text-align: center;
+        justify-content: center;
+    }
+    .hero p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bb{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+
+
+
+
+
